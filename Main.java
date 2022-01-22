@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // grade averaging program
+        // grade average calculating program
 
         Scanner input = new Scanner(System.in);
 
