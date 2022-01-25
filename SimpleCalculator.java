@@ -26,7 +26,7 @@ public class SimpleCalculator {
                     System.out.println("Division"+ (n1 / n2));
                 break;
             default:
-                System. out.println("You've made a wrong selection. Please try again.");
+                System. out.println("You've made a wrong selection. Please try again."); break;
         }
     }
 }
