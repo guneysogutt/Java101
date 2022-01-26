@@ -10,7 +10,6 @@ public class SimpleCalculator {
         n1 = input.nextInt();
         System.out.print ("Enter the second number : ");
         n2= input.nextInt();
-
         System.out.println("1-Sum\n2-Subtraction\n3-Multiplication\n4-Division");
         System.out.print ("Your Choice : ");
         select = input.nextInt();
