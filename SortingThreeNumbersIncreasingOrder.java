@@ -17,29 +17,29 @@ public class SortingThreeNumbersIncreasingOrder {
 
         if(number1>number2 && number1>number3) {
             if (number2 > number3)
-                System.out.println("num1 > num2 > num3");
+                System.out.println("num3 < num2 < num1");
             else if (number2 < number3)
-                System.out.println("num1 > num3 > num2");
+                System.out.println("num2 < num3 < num1");
             else
-                System.out.println("num1 > num2 = num3");
+                System.out.println("num3 = num2 < num1");
         }
         else if(number2>number1 && number2>number3)
         {
             if(number1>number3)
-                System.out.println("num2 > num1 > num3");
+                System.out.println("num3 < num1 < num2");
             else if (number1<number3)
-                System.out.println("num2 > num3 > num1");
+                System.out.println("num2 < num3 < num1");
             else
-                System.out.println("num2 > num1 = num3");
+                System.out.println("num3 = num1 < num2");
         }
         else if(number3>number1 && number3>number2)
         {
             if(number1>number2)
-                System.out.println("num3 > num1 > num2");
+                System.out.println("num2 < num1 < num3");
             else if (number1<number2)
-                System.out.println("num3 > num2 > num1");
+                System.out.println("num1 < num2 < num3");
             else
-                System.out.println("num3 > num1 = num3");
+                System.out.println("num2 = num1 < num3");
         }
     }
 }
