@@ -2,7 +2,7 @@ package Java101;
 import java.util.Scanner;
 public class AverageCalculatorOfMultiplesOf12 {
     public static void main(String[] args) {
-        
+
         Scanner inp = new Scanner(System.in);
         int number = 0;
         int sum = 0,counter = 0;
