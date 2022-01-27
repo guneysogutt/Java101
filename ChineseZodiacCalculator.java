@@ -15,7 +15,7 @@ public class ChineseZodiacCalculator {
                 break;
             case 1:
                 zodiac_name = "Rooster";
-                        break;
+                break;
             case 2:
                 zodiac_name = "Dog";
                 break;
