@@ -141,7 +141,7 @@ public class HoroscopeCalculator {
             else
                 isError = true;
         }
-        
+
         else
             isError = true;
 
