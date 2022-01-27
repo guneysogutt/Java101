@@ -1,1 +1,1 @@
-I shared my basic prohrams written in Java in this repository.
+I shared my basic programs written in Java in this repository.
